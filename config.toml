@@ -1,0 +1,82 @@
+baseURL = "https://example.com"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "JK Carr"
+theme = "hermit"
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+rssLimit = 10  # Maximum number of items in the RSS feed.
+enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
+
+[author]
+  name = "JK Carr"
+
+[blackfriday]
+  # hrefTargetBlank = true
+  # noreferrerLinks = true
+  # nofollowLinks = true
+
+[taxonomies]
+  tag = "tags"
+  # Categories are disabled by default.
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  # description = ""
+  # images = [""]
+  themeColor = "#494f5c"
+
+  homeSubtitle = "Interdisciplinary technology researcher."
+  # bgImg = ""  # Homepage background-image URL
+
+  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
+  justifyContent = false  # Set "text-align: justify" to `.content`.
+
+  relatedPosts = false  # Add a related content section to all single posts page
+
+  code_copy_button = true # Turn on/off the code-copy-button for code-fields
+
+  # Add custom css
+  # customCSS = ["css/foo.css", "css/bar.css"]
+
+  # Social Icons
+  # Check https://github.com/Track3/hermit#social-icons for more info.
+
+  [[params.social]]
+    name = "email"
+      url = "mailto:joshcarr@cmail.carleton.ca"
+
+  [[params.social]]
+    name = "gitlab"
+    url = "https://gitlab.com/jcarr132"
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/jcarr132"
+
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/jk-carr/"
+
+
+[menu]
+
+#  [[menu.main]]
+#    name = "Posts"
+#    url = "posts/"
+#    weight = 10
+
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 20
+
+  [[menu.main]]
+    name = "Works"
+    url = "works/"
+    weight = 20

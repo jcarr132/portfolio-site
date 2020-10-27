@@ -1,0 +1,3 @@
+[submodule "hermit"]
+	path = hermit
+	url = ./themes/hermit
