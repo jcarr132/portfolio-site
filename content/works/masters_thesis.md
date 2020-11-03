@@ -19,13 +19,14 @@ passwords stubbornly remain as the *de facto* standard for authentication
 across nearly all domains.
 
 The idea of using BCIs for authentication is not new, and was first suggested
-in 2005 by another Carleton graduate student, Dr. Julie Thorpe (now of Ontario Tech
-University). Since then, a rather significant body of work has been built up
-around the topic of *"passthoughts"*, with some studies reporting
-authentication accuracies well above 90%. One aspect that has been mostly
-overlooked, however, is the usability of these systems. With my thesis project,
-I aimed to comprehensively evaluate the usability of BCI-based authentication
-systems using a variety of methods, and to identify the main barriers to their
+in 2005 by another Carleton graduate student, Dr. Julie Thorpe (now of Ontario
+Tech University). Since then, a rather significant body of work has been built
+up around the topic of *"passthoughts"*, with some studies reporting
+authentication accuracies well above 90%.  Passthoughts demonstrate some
+desirable characteristics for strong security; however, the critical question of
+their usability has been mostly overlooked. With my thesis project, I aimed to
+comprehensively evaluate the usability of BCI-based authentication systems
+using a variety of methods, and to identify the main barriers to their
 acceptance and adoption.
 
 ### BCI Authentication Prototype
