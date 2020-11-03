@@ -1,6 +1,5 @@
 ---
-title: "Podcast_ui_exploration"
-date: 2020-11-03T11:12:17-05:00
+title: "UI Exploration Project"
+date: 2018-10-20
 draft: true
 ---
-

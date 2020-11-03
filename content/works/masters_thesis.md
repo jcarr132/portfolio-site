@@ -31,4 +31,23 @@ comprehensively evaluate the usability of BCI-based authentication systems
 using a variety of methods, and to identify the main barriers to their
 acceptance and adoption.
 
+The first step in the project was building a BCI authentication application
+that could be used to conduct usability testing. I designed and implemented a
+basic prototype using an Emotiv BCI headset, described in the next section, but
+unfortunately this part of the project was put on hold prior to the beginning
+of real user testing due to the emergence of the COVID-19 pandemic and
+associated suspension of in-person research activities at Carleton. Without the
+ability to meet in-person with study participants and have them use the BCI
+authentication system, no further progress was possible on this part of the
+project.
+
+In order to still complete my thesis on time, I changed the design of the
+project to include two remote studies. The first was a qualitative
+semi-structured interview study with BCI experts who I recruited via online
+forums and and cold emails, and the second was a quantitative survey of workers
+from Amazon Mechanical Turk (an online crowdsourcing platform for human
+intelligence tasks) with no prior experience using BCIs. Both studies were
+intended to identify barriers associated with the acceptance and willingness
+for people to adopt passthought authentication.
+
 ### BCI Authentication Prototype
