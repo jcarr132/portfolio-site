@@ -15,4 +15,4 @@ University in 2020.
 
 This site is intended as a showcase and repository of my work.
 
-[You can check out my CV here.](/cv.pdf)
+[You can check out my CV here.](/docs/cv.pdf)

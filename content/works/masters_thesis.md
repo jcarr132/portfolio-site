@@ -7,6 +7,8 @@ draft: true
 
 ## Introduction
 
+[The full-text PDF of my thesis can be downloaded here.](/docs/thesis_FINAL.pdf)
+
 I earned my Master's in Human-Computer Interaction from Carleton University in
 September 2020.  My thesis, titled "Evaluating the Usability of Passthought
 Authentication", was about the application of brain-computer interfaces (BCIs)
