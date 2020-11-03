@@ -1,6 +1,6 @@
 ---
 title: "HCI Masters Thesis"
-date: 2020-10-27T17:55:44-04:00
+date: 2020-09-23
 draft: true
 ---
 
