@@ -31,10 +31,8 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = """
-  Interdisciplinary technology researcher.
-  MASc Human-Computer Interaction
-  """
+  homeSubtitle = "Interdisciplinary technology researcher."
+  homeSubtitle2 = "MASc Human-Computer Interaction."
 
   # bgImg = ""  # Homepage background-image URL
 

@@ -410,7 +410,8 @@ p.img-404 {
 
 #home-subtitle {
   margin-top: 0;
-  margin-bottom: 1.5em;
+  // margin-bottom: 1.5em;
+  margin-bottom: 0.4em;
   text-align: center;
   line-height: normal;
   font-size: .7em;
@@ -422,6 +423,7 @@ p.img-404 {
   font-size: 1.4em;
   text-align: center;
   opacity: .8;
+  margin-top: 1.3em;
 
   a {
     margin: 0 .2em;
