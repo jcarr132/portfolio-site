@@ -56,7 +56,7 @@ The first step in this investigation was to design and build a BCI-based
 authentication system that I could use to conduct user testing. For this
 project I had access to two BCI devices, the Insight and Epoc from
 [Emotiv](https://emotiv.com) (shown below), so the application would be based
-around their API called Cortex.
+around their API called **Cortex**.
 
 {{< figure
   src="/img/thesis/epoc_insight_comparison.png"
@@ -101,12 +101,36 @@ user *draws* a pattern through the grid using a series of directional mental
 commands (*i.e.,* up, down, left, right); the sequence of commands comprises
 their password.
 
+I want to mention an important point here: the application itself is not
+intended to be *secure* in any way. The goal is only to conduct usability
+testing, so it is more accurate to describe it as a *simulation* of BCI mental
+command authentication.  Therefore, security features that would not affect the
+user experience such as password hashing and encryption were ignored. That
+said, I did try to design the overall interaction in such a way that a properly
+secure version could be built based on the same idea.
+
 {{< figure
   src="/img/thesis/auth_interface.png"
   alt="The front end menu and grid interface."
   caption="The front-end menu and grid interface."
   width="90%"
 >}}
+
+My intent was to use an iterative design approach, starting from the simplest
+possible implementation and repeatedly refining prototypes based on the results
+and feedback from pilot sessions until the application was ready for full-scale
+user testing.  Once the basic interaction had been implemented, I started some
+pilot testing with some of my lab colleagues who agreed to help out.
+
+Several issues quickly became apparent with the first iteration of the
+prototype. Specifically, most of the difficulty came from the usability and
+reliability of the Emotiv system, especially the mental command functionality.
+I found that it was nearly impossible to train the Emotiv mental command
+classifier well enough to reliably discriminate between the four mental
+commands necessary to use the authenticator. While volunteers could get the
+system to work with one or two commands relatively easily, adding a third
+seemed to completely confuse the classifier such that it no longer recognized
+any of the previously trained commands.
 
 ### BCI Expert Interview Study
 ### BCI Questionnaire Study
