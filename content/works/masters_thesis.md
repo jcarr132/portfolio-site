@@ -16,8 +16,8 @@ authentication prototype in order to conduct user testing, but grew into a
 broader investigation of the role of BCIs in society and the major barriers to
 their acceptance including privacy, security, applicability, and general
 uneasiness and uncertainty associated with neurotechnologies. The course of the
-project was also largely defined by the global COVID-19 pandemic which required
-a move away from in-person user testing to alternative remote methods.
+project was also largely influenced by the global COVID-19 pandemic which
+required a move away from in-person user testing to alternative remote methods.
 
 This was a huge project and I'm hoping for this summary to be as concise as
 possible, so I will omit a lot of the specific details. If you want to really
