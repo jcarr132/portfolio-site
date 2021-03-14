@@ -64,7 +64,7 @@ around their API called **Cortex**.
   src="/img/thesis/epoc_insight_comparison.png"
   link="https://emotiv.com"
   alt="A side by side comparison of the Emotiv Insight and Epoc devices, on their own and worn by a model."
-  caption="A side by side comparison of the Emotiv Insight (left) and Epoc (right) devices, worn by a model (top) as well as on their own (bottom)."
+  caption="A side by side comparison of the Emotiv Insight (left) and Epoc (right) devices, worn by a model (top) as well as on their own (bottom). Images from [emotiv.com](https://emotiv.com)"
 >}}
 
 One of the functions that the Emotiv Cortex API provides is the use of mental
@@ -106,12 +106,12 @@ commands (*i.e.,* up, down, left, right); the sequence of commands comprises
 their password.
 
 I want to mention an important point here: the application itself is not
-intended to be *secure* in any way. The goal is only to conduct usability
-testing, so it is more accurate to describe it as a *simulation* of BCI mental
-command authentication.  Therefore, security features that would not affect the
-user experience such as password hashing and encryption were ignored. That
-said, I did try to design the overall interaction in such a way that a properly
-secure version could be built based on the same idea.
+intended to actually be *secure* in any real way. The goal is only to conduct
+usability testing, so it is more accurate to describe it as a *simulation* of
+BCI mental command authentication.  Therefore, security features that would not
+affect the user experience such as password hashing and encryption were
+ignored. That said, I did try to design the overall interaction in such a way
+that a properly secure version could be built based on the same idea.
 
 {{< figure
   src="/img/thesis/auth_interface.png"
@@ -196,8 +196,24 @@ predetermined stopping condition is met. In my case, I continued iterating over
 the dataset and generating codes until I did a full pass without adding any new
 codes, at which point I stopped and moved onto the next stage.
 
+For example, consider the following quote from a participant:
+
+<blockquote>
+P3: "What really concerns me is that there could be sources of bias that slip
+into the signal that we don't know about, gender or racial biases. I don't
+think anyone knows."
+</blockquote>
+
+Which would be assigned the following codes:
+<ul>
+<li>Perceived high sensitivity of BCI data.</li>
+<li>Data aggregation.</li>
+<li>Lack of knowledge to fully understand BCI safety.</li>
+</ul>
+
 After code generation, the next step is to start to assemble the codes into
 coherent themes that capture some general aspect of the interviewee responses.
+
 
 ### BCI Questionnaire Study
 ### Conclusion and Reflection

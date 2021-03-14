@@ -20,6 +20,7 @@
 
 html {
   background: $light-grey;
+  // background: white;
   line-height: 1.6;
   letter-spacing: .06em;
   scroll-behavior: smooth;
@@ -31,6 +32,7 @@ input,
 select,
 textarea {
   color: $text;
+  // color: black;
   font-family: $fonts;
 }
 
@@ -87,6 +89,7 @@ blockquote {
 
 a {
   color: $text;
+  // color: black;
   text-decoration: none;
   border: none;
   transition-property: color;
@@ -109,19 +112,27 @@ hr {
 }
 
 table {
+  border-bottom: 1px solid;
   border-collapse: collapse;
   border-spacing: 0;
   empty-cells: show;
   width: 100%;
-  max-width: 100%;
+  max-width: 90%;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 60px;
 
   th,
   td {
-    padding: 1.5%;
-    border: 1px solid;
+    padding: 1.4%;
+    margin-left: 50px;
+    padding-bottom: 0;
+    // border: 1px solid;
+    border-collapse: collapse;
   }
 
   th {
+    border-bottom: 1px solid;
     font-weight: 700;
     vertical-align: bottom;
   }

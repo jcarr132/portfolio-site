@@ -1,7 +1,7 @@
 baseURL = "https://sad-mayer-cab9a0.netlify.app"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "JK Carr"
+title = "Joshua Carr"
 theme = "hermit"
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
@@ -9,7 +9,7 @@ rssLimit = 10  # Maximum number of items in the RSS feed.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
 
 [author]
-  name = "JK Carr"
+  name = "Joshua Carr"
 
 [blackfriday]
   # hrefTargetBlank = true
@@ -31,8 +31,8 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "Interdisciplinary technology researcher."
-  homeSubtitle2 = "MASc Human-Computer Interaction."
+  homeSubtitle = "User Experience | Human Factors "
+  homeSubtitle2 = "M.A.Sc. Human-Computer Interaction."
 
   # bgImg = ""  # Homepage background-image URL
 
@@ -82,3 +82,6 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     name = "CV (pdf)"
     url = "docs/cv.pdf"
     weight = 20
+
+[markup.goldmark.renderer]
+unsafe = true
