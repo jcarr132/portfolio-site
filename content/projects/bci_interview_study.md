@@ -1,37 +1,23 @@
 ---
 title: "Brain-Computer Interface Expert Interview Study"
-author: "Joshua K Carr"
-subtitle: "this is a test subtitle"
 date: 2020-02-01
 draft: true
 ---
 
 #### by Joshua Carr
 
-This post describes a study that I completed as a part of my Master's thesis at
-Carleton University. This was a qualitative interview study which was aimed at
-understanding factors related to acceptance and adoption of brain-computer
-interface (BCI) devices by the public.
+This post describes a study that I completed as a part of my HCI Master's
+thesis at Carleton University. This was a qualitative interview study which was
+aimed at understanding factors related to acceptance and adoption of
+brain-computer interface (BCI) devices by the public. This project was
+originally published as Chapter 4 of my Master's thesis, available
+[here](/docs/thesis_FINAL.pdf).
 
 ## Organization
 
 * Carleton University - Human-Oriented Technology Software Research Lab
   [(HotSoft)](https://hotsoft.carleton.ca/hotsoft/)
 * Supervised by [Dr. Robert Biddle](https://carleton.ca/scs/people/robert-biddle/)
-
-## Project Timeline
-
-Interviews were conducted between February 1 and April 9 of 2020. The interview
-data were transcribed and analyzed over the following months before the project
-was concluded with my thesis defense on September 13, 2020.
-
-## My Role
-
-I was the lead researcher on this project, in collaboration with my thesis
-supervisor Dr. Biddle who provided advice and guidance throughout the process.
-I was responsible for preparing the Research Ethics Board (REB) proposal,
-recruiting participants, conducting remote interviews, transcribing, analyzing,
-and interpreting the data, and communicating the results.
 
 ## Project Summary
 
@@ -50,6 +36,20 @@ uncertainty about the security and privacy of BCIs, high difficulty involved in
 using them, and a need for further development as the most major areas of
 concern. These findings provide a possible roadmap of issues to be addressed in
 order to promote the adoption of BCIs among the general population.
+
+## Project Timeline
+
+Interviews were conducted between February 1 and April 9 of 2020. The interview
+data were transcribed and analyzed over the following months before the project
+was concluded with my thesis defense on September 13, 2020.
+
+## My Role
+
+I was the lead researcher on this project, in collaboration with my thesis
+supervisor Dr. Biddle who provided advice and guidance throughout the process.
+I was responsible for preparing the Research Ethics Board (REB) proposal,
+recruiting participants, conducting remote interviews, transcribing, analyzing,
+and interpreting the data, and communicating the results.
 
 ## Context
 
