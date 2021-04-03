@@ -1,8 +1,85 @@
 ---
-title: "HCI Masters Thesis"
-date: 2020-09-23
+title: "BCI Authenticator Prototype"
+date: 2019-01-23
 draft: true
 ---
+
+#### by Joshua Carr
+
+This post describes a software prototype that I built as a part of my HCI
+Master's thesis at Carleton University. I describe a novel idea for
+brain-computer interface (BCI) authentication based on mental command
+sequences, as well as a prototype based on this design which I used to conduct
+usability testing.  This project was originally published as Chapter 3 of my
+Master's thesis, available [here](/docs/thesis_FINAL.pdf). The code repository
+for this prototype is available [on
+Github](https://github.com/jcarr132/BrainGridAuthenticator), but an Emotiv BCI
+is needed in order to use the application.
+
+## Organization
+
+* Carleton University - Human-Oriented Technology Software Research Lab
+  [(HotSoft)](https://hotsoft.carleton.ca/hotsoft/)
+* Supervised by [Dr. Robert Biddle](https://carleton.ca/scs/people/robert-biddle/)
+
+## Project Summary
+
+The goal of this project was to assess the feasibility of a novel method of
+BCI-based authentication based on mental command sequences. To that end, I
+designed and build a prototype authenticator to use with
+[Emotiv](https://emotiv.com) BCI devices in order to conduct
+usability/feasibility testing. The authentication involves training a series of
+*mental commands*--specific mental states that are associated with a desired
+action--and then using those commands in a sequence as a sort of password by
+drawing a pattern through a grid of points.
+
+I recruited some of my lab colleagues to test the application and give
+feedback, but at this stage we began running into significant problems with the
+reliability and usability of the Emotiv BCI headset. We were unable to get
+Emotiv's mental command classifier to reliably distinguish between the four
+commands that were required for the two-dimensional grid drawing task.
+
+{{< figure
+  src="/img/thesis/epoc_insight_comparison.png"
+  link="https://emotiv.com"
+  alt="A side by side comparison of the Emotiv Insight and Epoc devices, on their own and worn by a model."
+  caption="A side by side comparison of the Emotiv Insight (left) and Epoc (right) devices, worn by a model (top) as well as on their own (bottom). Images from [emotiv.com](https://emotiv.com)"
+>}}
+
+## Project Timeline
+
+Development of the authenticator prototype began in mid-October of 2019, and
+the final code commit was on April 16, 2020.  I began testing with lab
+volunteers and iterating the design based on feedback in December of 2019 and
+this continued into March of 2020.  Development of this prototype was
+indefinitely halted in April 2020 due to the emerging COVID-19 global health
+crisis and suspension of in-person research activities at Carleton University.
+
+## My Role
+
+I was the lead researcher on this project, in collaboration with my thesis
+supervisor Dr. Biddle who provided advice and guidance throughout the process.
+I designed and built the software prototype, prepared the Research Ethics Board
+(REB) proposal, recruited volunteers to test the application and give feedback,
+and made iterative changes to the application based on user performance and
+comments.
+
+
+## Context
+## The Study
+## Results
+## Reflection
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### Introduction
@@ -156,64 +233,3 @@ reasonable amount of content.
   caption="The structure of the application back-end."
   width="90%"
 >}}
-
-### BCI Expert Interview Study
-
-The goal of this and the subsequent questionnaire study was to examine the
-possibility of mass adoption of BCIs among the general public and to identify
-the main barriers to this outcome by soliciting opinions with a specific
-emphasis on privacy and cybersecurity-related concerns.
-
-A major difficulty in studying people's attitudes toward BCI devices stems from
-the fact that very few people know much about them, and the general public tend
-to be uninformed or misinformed about BCIs, how they work, and the extent of
-their capabilities.  I reasoned that it would be informative to understand the
-perspective of experienced BCI users because this would help in parsing whether
-issues I identified were real limitations of the BCI system or arising out of
-misconceptions about the technology. To this end, I recruited 7 BCI expert
-users by submitting recruitment posts on various BCI-related forums and social
-media groups and conducted remote semi-structured interviews with them using
-videoconferencing software.
-
-In a semi-structured interview, I have a set of *guide questions* and potential
-followups that I've planned out, but the goal of the interview is to allow the
-conversation to unfold organically. Therefore, in some cases I may completely
-disregard my interview guide in order to pursue an interesting conversational
-thread that emerges. This type of interview produces a rich qualitative dataset
-that can be analyzed in a number of ways. I recorded the audio of each
-interview and also took notes. Afterward I relistened to each interview several
-times and transcribed meaningful sections or quotations into text for easier
-analysis.
-
-I analyzed the interview data using a qualitative research approach called
-*Reflexive Thematic Analysis*, which is a relatively loose, bottom-up approach
-for deriving general themes from a text dataset. In the first step, every
-non-trivial statement is assigned one or more *codes*--labels which capture a
-particular sentiment or idea from the text. Coding and code generation are an
-iterative process in which new codes are added as needed and frequently
-replaced or combined with other codes. This process is repeated until some
-predetermined stopping condition is met. In my case, I continued iterating over
-the dataset and generating codes until I did a full pass without adding any new
-codes, at which point I stopped and moved onto the next stage.
-
-For example, consider the following quote from a participant:
-
-<blockquote>
-P3: "What really concerns me is that there could be sources of bias that slip
-into the signal that we don't know about, gender or racial biases. I don't
-think anyone knows."
-</blockquote>
-
-Which would be assigned the following codes:
-<ul>
-<li>Perceived high sensitivity of BCI data.</li>
-<li>Data aggregation.</li>
-<li>Lack of knowledge to fully understand BCI safety.</li>
-</ul>
-
-After code generation, the next step is to start to assemble the codes into
-coherent themes that capture some general aspect of the interviewee responses.
-
-
-### BCI Questionnaire Study
-### Conclusion and Reflection
