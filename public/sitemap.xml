@@ -3,11 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://sad-mayer-cab9a0.netlify.app/about/</loc>
+    <lastmod>2020-10-26T16:19:50-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://sad-mayer-cab9a0.netlify.app/projects/bci_interview_study/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sad-mayer-cab9a0.netlify.app/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sad-mayer-cab9a0.netlify.app/projects/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sad-mayer-cab9a0.netlify.app/tags/</loc>
   </url>
   
 </urlset>

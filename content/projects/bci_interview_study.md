@@ -1,7 +1,6 @@
 ---
 title: "Brain-Computer Interface Expert Interview Study"
 date: 2020-02-01
-draft: true
 ---
 
 #### by Joshua Carr
