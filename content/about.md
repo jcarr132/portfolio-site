@@ -15,4 +15,4 @@ Interaction* from Carleton University in 2020.
 
 This site is intended as a showcase and repository of my work.
 
-[You can view my CV here.](/docs/cv.pdf)
+[You can view my CV here.](/docs/jcarr_cv.pdf)

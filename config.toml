@@ -31,7 +31,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "User Experience | Human Factors "
+  homeSubtitle = "User Experience | Human Factors | Software Development"
   homeSubtitle2 = "M.A.Sc. Human-Computer Interaction."
 
   # bgImg = ""  # Homepage background-image URL
@@ -80,7 +80,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
   [[menu.main]]
     name = "CV (pdf)"
-    url = "docs/cv.pdf"
+    url = "docs/jcarr_cv.pdf"
     weight = 20
 
 [markup.goldmark.renderer]
