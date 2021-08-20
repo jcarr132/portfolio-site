@@ -1,5 +1,5 @@
 ---
-title: "BCI Authenticator Prototype"
+title: "Brain-Computer Interface Authenticator Prototype"
 date: 2019-01-23
 draft: true
 ---
@@ -37,7 +37,9 @@ I recruited some of my lab colleagues to test the application and give
 feedback, but at this stage we began running into significant problems with the
 reliability and usability of the Emotiv BCI headset. We were unable to get
 Emotiv's mental command classifier to reliably distinguish between the four
-commands that were required for the two-dimensional grid drawing task.
+commands that were required for the two-dimensional grid drawing task. In fact,
+I found that it was nearly impossible for the Emotiv system to reliably
+distinguish between two trained commands, even after several hours of training.
 
 {{< figure
   src="/img/thesis/epoc_insight_comparison.png"
@@ -45,6 +47,13 @@ commands that were required for the two-dimensional grid drawing task.
   alt="A side by side comparison of the Emotiv Insight and Epoc devices, on their own and worn by a model."
   caption="A side by side comparison of the Emotiv Insight (left) and Epoc (right) devices, worn by a model (top) as well as on their own (bottom). Images from [emotiv.com](https://emotiv.com)"
 >}}
+
+I started working on some modifications to the prototype in order to have it
+work with fewer (*i.e.* 2 or 3) commands instead of four, but it was at this
+time that Carleton University closed and suspended in-person research
+activities due to the emerging COVID-19 pandemic. I was unfortunately forced
+to shelve this project and focus on other research projects that didn't require
+direct participant interaction in order to complete my thesis on time.
 
 ## Project Timeline
 
@@ -66,45 +75,6 @@ comments.
 
 
 ## Context
-## The Study
-## Results
-## Reflection
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Introduction
-
-I earned my Master's in Human-Computer Interaction from Carleton University in
-September 2020.  My thesis, titled *"Evaluating the Usability of Passthought
-Authentication"*, was about the application of brain-computer interfaces (BCIs)
-to the problem of authentication (sometimes called *passthought
-authentication*). This project was conducted under the supervision of Dr.
-Robert Biddle, whose guidance and mentorship were instrumental in it's
-completion. The project began as an effort to develop a BCI authentication
-prototype in order to conduct user testing, but grew into a broader
-investigation of the role of BCIs in society and the major barriers to their
-acceptance including privacy, security, applicability, and general uneasiness
-and uncertainty associated with neurotechnologies. The course of the project
-was also largely influenced by the global COVID-19 pandemic which required a
-move away from in-person user testing to alternative remote methods.
-
-This was a huge project and I'm hoping for this summary to be as concise as
-possible, so I will omit a lot of the specific details. If you want to really
-get into the specifics, [the full-text PDF of my thesis can be downloaded
-here.](/docs/thesis_FINAL.pdf)
-
-
-### Objective
 
 The text-based passwords that most of us are familiar with exhibit a number of
 usability problems which lead to user behaviours that compromise security, such
@@ -124,11 +94,81 @@ desirable characteristics for strong security (in theory); however, the
 critical question of their usability has been mostly overlooked. At the same
 time, a new generation of direct-to-consumer BCI devices have emerged in recent
 years which has brought renewed interest in potential applications for BCIs,
-including passthoughts. With my thesis project, I aimed to comprehensively
-evaluate the usability of BCI-based authentication systems using a variety of
-methods, and to identify the main barriers to their acceptance and adoption.
+including passthoughts. With this research project, I aimed to test the
+feasibility of authentication using commercial-grade BCIs using a software
+prototype that I built myself.
+
+## The Prototype
+#### Design
+
+I knew going in that I wanted to base the authentication interaction on mental
+commands. The basic idea is that a machine learning classifier learns to
+associate a specific pattern of neurological activity from the headset with a
+discrete output command. Mental commands are an interesting approach because
+they are a generalizable control scheme that can apply to all manner of tasks
+in addition to authentication. Emotiv's software toolkit comes with built-in
+support for training a mental command classifier and integrating them into a
+third-party application.
+
+{{< figure
+  src="/img/thesis/emotivbci_merged.png"
+  link="https://emotiv.com"
+  alt="Screenshots of the EmotivBCI application which is used to train mental commands with an Emotiv device."
+  caption="Screenshots of the EmotivBCI application which is used to train mental commands with an Emotiv device. Images from [emotiv.com](https://emotiv.com)"
+>}}
+
+The first major consideration in the design process was how to construct a
+*"password"* from mental commands. A sequence of mental commands has advantages
+over other BCI-based authentication methods because it does not require storing
+any of the user's neurological data. The neurological data can be processed
+locally, and only the output commands would need to be stored for comparison.
+The initial design process is reflected in some of my notes, shown below.
+
+{{< figure
+  src="/img/thesis/design_merged1.png"
+  link="https://emotiv.com"
+  alt=""
+  caption=""
+>}}
+
+A simple and generalizable solutions that occurred to me was to model the
+interaction after the *pattern unlock* paradigm that is common on mobile phones
+using directional (i.e., up, down, left, right) commands. The first sketches of
+this design are shown in the figure below. This design is somewhat more
+constrained than the mobile phone version, because the user is limited to
+moving only one grid space at a time and only in four cardinal directions (no
+diagonals!).
+
+{{< figure
+  src="/img/thesis/design_merged2.png"
+  link="https://emotiv.com"
+  alt=""
+  caption=""
+>}}
 
 
+
+#### Implementation
+
+## Results
+## Reflection
+
+
+
+
+
+
+
+
+
+
+
+
+### Objective
+
+
+
+<!--
 ### BCI Authentication Prototype
 
 The first step in this investigation was to design and build a BCI-based
@@ -155,7 +195,6 @@ specific sequence of mental commands as a sort of *password*. There are a few
 advantages to this, but one of the main ones is that it avoids having to store
 any representation of the user's actual neurological data on a server.
 
-<!--
 I built out a simple web application around the Emotiv mental command API. My
 goal for the initial prototype was to create the simplest form of
 authentication based on mental commands possible in order to establish whether
@@ -172,7 +211,6 @@ JavaScript library).
   caption="A schematic showing the structure of the BCI authenticator prototype."
   width="90%"
 >}}
--->
 
 For the interface, I wanted to have a task that could be done using a series of
 discrete commands to provide visual feedback during the authentication process,
@@ -233,3 +271,4 @@ reasonable amount of content.
   caption="The structure of the application back-end."
   width="90%"
 >}}
+-->
