@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Joshua Carr</title>
-    <link>https://sad-mayer-cab9a0.netlify.app/</link>
+    <link>https://jcarr.xyz/</link>
     <description>Recent content on Joshua Carr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://sad-mayer-cab9a0.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jcarr.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://sad-mayer-cab9a0.netlify.app/about/</link>
+      <link>https://jcarr.xyz/about/</link>
       <pubDate>Mon, 26 Oct 2020 16:19:50 -0400</pubDate>
       
-      <guid>https://sad-mayer-cab9a0.netlify.app/about/</guid>
+      <guid>https://jcarr.xyz/about/</guid>
       <description>I&amp;rsquo;m a researcher and data analyst specializing in human-factors in computing. I have a multi-disciplinary background which includes experience in user experience research, molecular neurobiology, cognitive science, software development, quantitative and qualitative data analysis, machine learning, and healthcare. I earned the degrees of Bachelor of Science in Psychology from Trent University in 2015 and Master of Applied Science in Human-Computer Interaction from Carleton University in 2020.
 This site is intended as a showcase and repository of my work.</description>
     </item>
     
     <item>
       <title>Brain-Computer Interface Expert Interview Study</title>
-      <link>https://sad-mayer-cab9a0.netlify.app/projects/bci_interview_study/</link>
+      <link>https://jcarr.xyz/projects/bci_interview_study/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://sad-mayer-cab9a0.netlify.app/projects/bci_interview_study/</guid>
+      <guid>https://jcarr.xyz/projects/bci_interview_study/</guid>
       <description>by Joshua Carr This post describes a study that I completed as a part of my HCI Master&amp;rsquo;s thesis at Carleton University. This was a qualitative interview study which was aimed at understanding factors related to acceptance and adoption of brain-computer interface (BCI) devices by the public. This project was originally published as Chapter 4 of my Master&amp;rsquo;s thesis, available here.
 Organization  Carleton University - Human-Oriented Technology Software Research Lab (HotSoft) Supervised by Dr.</description>
     </item>
