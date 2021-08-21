@@ -1,7 +1,7 @@
 baseURL = "https://jcarr.xyz/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Joshua Carr"
+title = "Joshua Carr - User Experience | Human Factors | Software Development"
 theme = "hermit"
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
@@ -32,7 +32,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   themeColor = "#494f5c"
 
   homeSubtitle = "User Experience | Human Factors | Software Development"
-  homeSubtitle2 = "M.A.Sc. Human-Computer Interaction."
+  homeSubtitle2 = "M.A.Sc. Human-Computer Interaction"
 
   # bgImg = ""  # Homepage background-image URL
 
