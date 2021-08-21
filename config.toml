@@ -77,7 +77,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
   [[menu.main]]
     name = "CV (pdf)"
-    url = "docs/jcarr_cv.pdf"
+    url = "docs/jcarr_cv.html"
     weight = 20
 
 [markup.goldmark.renderer]
