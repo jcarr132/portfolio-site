@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 45rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+body {
+  background-color: #494f5c;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+ul {
+  margin-top: 0.3rem;
+  list-style-position: outside;
+}
+
+h2 {
+  margin-top: 1.2rem;
+  font-size: 1.2rem;
+  line-height: 0.1rem;
+}
+
+#name {
+  margin-bottom: 0.1rem;
+}
+
+#about {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#pronouns {
+  font-size: 1rem;
+}
+
+#mission {
+  margin-bottom: 1em;
+}
+
+.employer, .university {
+  margin-left: 1rem;
+}
+
+@media print {
+
+  @page {
+    size: Letter portrait;
+    margin: 0.5cm;
+  }
+
+  body {
+    background: white;
+    color: black;
+  }
+
+  h1, h2, h3, h4, h5 {
+    page-break-after: avoid;
+  }
+
+  .m-0, .m-0 *, .dont-print, .dont-print * {
+    display: none!important;
+  }
+}
