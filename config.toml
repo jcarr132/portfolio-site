@@ -21,6 +21,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # Categories are disabled by default.
 
 [params]
+  shortTitle      = "Joshua Carr"
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"

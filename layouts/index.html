@@ -16,7 +16,7 @@
 		<div id="home-center">
       <img id="home-photo" src="./img/profile_pic2.jpeg"/>
 
-			<h1 id="home-title">{{ .Site.Title }}</h1>
+			<h1 id="home-title">{{ .Site.Params.shortTitle }}</h1>
 			{{- with .Site.Params.homeSubtitle }}
       <p id="home-subtitle">{{.}}</p>
 			{{- end }}
