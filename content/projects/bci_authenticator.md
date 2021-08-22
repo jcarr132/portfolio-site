@@ -98,17 +98,19 @@ including passthoughts. With this research project, I aimed to test the
 feasibility of authentication using commercial-grade BCIs using a software
 prototype that I built myself.
 
-## The Prototype
-#### Design
+---
 
-I knew going in that I wanted to base the authentication interaction on mental
-commands. The basic idea is that a machine learning classifier learns to
-associate a specific pattern of neurological activity from the headset with a
-discrete output command. Mental commands are an interesting approach because
-they are a generalizable control scheme that can apply to all manner of tasks
-in addition to authentication. Emotiv's software toolkit comes with built-in
-support for training a mental command classifier and integrating them into a
-third-party application.
+## The Prototype
+### Design
+
+I knew going in that I wanted to base the authentication interaction on
+mental commands. The basic idea is that a machine learning classifier
+learns to associate a specific pattern of neurological activity from the
+headset with a discrete output command. Mental commands are an
+interesting approach because they are a generalizable control scheme
+that are not specific to authentication. Emotiv's software toolkit comes
+with built-in support for training a mental command classifier and
+integrating them into a third-party application.
 
 {{< figure
   src="/img/thesis/emotivbci_merged.png"
@@ -146,9 +148,79 @@ diagonals!).
   caption=""
 >}}
 
+---
+
+### Implementation
+
+The app itself is implemented as a single-page web app running on a
+NodeJS express server on the local machine. The server connects to a
+MondoDB database instance, used to store user credentials, and the
+Emotiv Cortex API which is used to read data from the Emotiv headset.
+
+I built a simple wrapper around the Cortex API to handle
+sending/receiving requests and processing data. Cortex handles requests
+in the form of JSON-RPC calls over a websocket, so I create a websocket
+connection and store that in the Cortex object.
+
+```javascript
+const CORTEX_URL = 'wss://localhost:6868';
+const WebSocket = require('ws');
+
+class Cortex {
+  constructor(auth) { // auth = object containing Cortex API key
+    this.ws = new WebSocket(CORTEX_URL)
+
+    // listen for close
+    this.ws.addEventListener('close', () => {
+      log('Socket closed');
+    });
+
+    // wait for connection
+    this.ready = new Promise((resolve) => {
+      log('initialized Cortex object');
+      this.ws.addEventListener('open', resolve);
+    }).then(() => log('Socket opened'));
+  }
+}
+```
 
 
-#### Implementation
+
+```javascript
+call(method, params = {}) {
+  return new Promise((resolve) => {
+
+    // construct the JSON-RPC request
+    const request = {
+      jsonrpc: '2.0',
+      method,
+      params,
+      id: messageId,
+    };
+
+    // serialize and send the request
+    const message = JSON.stringify(request);
+    this.ws.send(message);
+
+    // messageHandler callback doesn't correctly interpret `this`, so
+    // store an unambiguous reference
+    const ctx = this;
+
+    // create the messageHandler
+    function messageHandler(data) {
+      const response = JSON.parse(data);
+      if (response.id === messageId) {
+        ctx.ws.removeEventListener('message', messageHandler);
+        resolve(response.result);
+      }
+    }
+
+    // attach the messageHandler to the websocket
+    this.ws.on('message', messageHandler);
+  });
+}
+```
+
 
 ## Results
 ## Reflection

@@ -6,7 +6,16 @@
     <description>Recent content on Joshua Carr - User Experience | Software Development | Human Factors</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jcarr.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Aug 2021 11:20:22 -0400</lastBuildDate><atom:link href="https://jcarr.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Portfolio (about this site)</title>
+      <link>https://jcarr.xyz/projects/portfolio_site/</link>
+      <pubDate>Sat, 21 Aug 2021 11:20:22 -0400</pubDate>
+      
+      <guid>https://jcarr.xyz/projects/portfolio_site/</guid>
+      <description>I wanted to create a simple and easy-to-maintain site to host my personal portfolio. I decided to use the static-site generator Hugo for this project. Hugo allows me to use Markdown (which I use for everything already) to write posts for the site, and publishing is as simple as pushing commits to a remote git repository which triggers automated CI/CD into Netlify&amp;rsquo;s CDN. I used the Hermit Hugo theme as a base and made some minor modifications.</description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>https://jcarr.xyz/about/</link>
