@@ -431,7 +431,7 @@ For the grid interface, I used the `snap` JavaScript package which is a
 nice and simple library for rendering scalable vector graphics (SVGs) on
 a webpage. The interface itself is shown below:
 
-{{<figure
+{{<figure class="faded"
   src="/img/thesis/auth_interface.png"
 >}}
 
