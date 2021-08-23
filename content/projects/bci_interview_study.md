@@ -3,8 +3,6 @@ title: "Brain-Computer Interface Expert Interview Study"
 date: 2020-02-01
 ---
 
-#### by Joshua Carr
-
 This post describes a study that I completed as a part of my HCI Master's
 thesis at Carleton University. This was a qualitative interview study which was
 aimed at understanding factors related to acceptance and adoption of
