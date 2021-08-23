@@ -57,13 +57,18 @@ pre {
   code {
     padding: 0;
     margin: 0;
-    // background: $midnightblue;
+    background: $midnightblue;
   }
+}
+
+.chroma {
+  background: $midnightblue;
 }
 
 code {
   // color: #eee;
   // background: $highlight-grey;
+  background: $midnightblue;
   border-radius: 3px;
   padding: 0 3px;
   margin: 0 4px;
@@ -924,4 +929,8 @@ a.footnote-ref {
   #mobile-menu {
     right: 1.2em;
   }
+}
+
+.faded {
+  filter: brightness(80%);
 }
