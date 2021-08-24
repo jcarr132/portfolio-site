@@ -32,8 +32,18 @@ This site is intended as a showcase and repository of my work.</description>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://jcarr.xyz/projects/bci_interview_study/</guid>
-      <description>by Joshua Carr This post describes a study that I completed as a part of my HCI Master&amp;rsquo;s thesis at Carleton University. This was a qualitative interview study which was aimed at understanding factors related to acceptance and adoption of brain-computer interface (BCI) devices by the public. This project was originally published as Chapter 4 of my Master&amp;rsquo;s thesis, available here.
-Organization  Carleton University - Human-Oriented Technology Software Research Lab (HotSoft) Supervised by Dr.</description>
+      <description>This post describes a study that I completed as a part of my HCI Master&amp;rsquo;s thesis at Carleton University. This was a qualitative interview study which was aimed at understanding factors related to acceptance and adoption of brain-computer interface (BCI) devices by the public. This project was originally published as Chapter 4 of my Master&amp;rsquo;s thesis, available here.
+Summary I recruited a sample of experienced brain-computer interface (BCI) users and researchers and conducted semi-structured interviews with them as part of a larger research agenda to understand public acceptance and adoption of commercial BCI devices.</description>
+    </item>
+    
+    <item>
+      <title>Brain-Computer Interface Authenticator Prototype</title>
+      <link>https://jcarr.xyz/projects/bci_authenticator/</link>
+      <pubDate>Wed, 23 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jcarr.xyz/projects/bci_authenticator/</guid>
+      <description>This post describes a prototype user-authentication system that I designed for use with Emotiv BCI devices. This project was originally published as Chapter 3 of my HCI Master&amp;rsquo;s thesis, available here, which I completed at Carleton University from September 2018 to September 2020 under supervision of Dr. Robert Biddle.
+Background The text-based passwords that we are all familiar with exhibit a number of usability problems which lead to user behaviours that compromise security, such as reusing the same passwords multiple times or writing them down.</description>
     </item>
     
   </channel>
