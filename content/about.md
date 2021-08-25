@@ -4,7 +4,6 @@ date: 2020-10-26T16:19:50-04:00
 draft: false
 ---
 
-
 I'm a user experience (UX) researcher and software developer
 specializing in human factors in technology.
 
