@@ -21,7 +21,6 @@ technology which in turn shapes us as individuals and as a global
 society. I believe in technology as a tool of empowerment and that
 should contribute to the betterment of life for all people.
 
-
 Some topics I'm currently interested in:
 - Human factors in software development
 - Veganism and animal rights
