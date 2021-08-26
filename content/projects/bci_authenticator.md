@@ -8,7 +8,7 @@ draft: false
 This post describes a prototype user-authentication system that I
 designed for use with [Emotiv BCI devices](https://www.emotiv.com). This
 project was originally published as Chapter 3 of my HCI Master's thesis,
-[available here](docs/thesis_FINAL.pdf), which I completed at Carleton
+[available here](/docs/thesis_FINAL.pdf), which I completed at Carleton
 University from September 2018 to September 2020 under supervision of
 [Dr. Robert Biddle](https://carleton.ca/scs/people/robert-biddle/).
 
