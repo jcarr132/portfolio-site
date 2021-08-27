@@ -4,8 +4,8 @@ date: 2020-10-26T16:19:50-04:00
 draft: false
 ---
 
-I'm a user experience (UX) researcher and software developer
-specializing in human factors in technology.
+I'm a user experience researcher and software developer specializing in
+human factors in technology.
 
 I have a multi-disciplinary background that includes user experience,
 cognitive science, software development, quantitative and qualitative
