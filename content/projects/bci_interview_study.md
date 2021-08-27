@@ -1,6 +1,6 @@
 ---
 title: "Brain-Computer Interface Expert Interview Study"
-date: 2020-02-01
+date: 2021-07-18
 ---
 
 This post describes a study that I completed as a part of my HCI Master's

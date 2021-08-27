@@ -1,6 +1,6 @@
 ---
 title: "Portfolio (about this site)"
-date: 2021-08-21T11:20:22-04:00
+date: 2021-08-21
 draft: false
 ---
 

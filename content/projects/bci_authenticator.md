@@ -1,6 +1,6 @@
 ---
 title: "Brain-Computer Interface Authenticator Prototype"
-date: 2019-01-23
+date: 2021-08-20
 author: "Joshua Carr"
 draft: false
 ---
