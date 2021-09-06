@@ -8,11 +8,11 @@ I'm a user experience researcher and software developer specializing in
 human factors in technology.
 
 I have a multi-disciplinary background that includes user experience,
-cognitive science, software development, quantitative and qualitative
-analysis, and Agile workflows. I earned the degrees of *Bachelor of
-Science in Psychology* from Trent University in 2015 and *Master of
-Applied Science in Human-Computer Interaction* from Carleton University
-in 2020.
+cognitive science, neuroscience, software development, quantitative and
+qualitative analysis, and Agile frameworks. I earned the degrees of
+*Bachelor of Science in Psychology* from Trent University in 2015 and
+*Master of Applied Science in Human-Computer Interaction* from Carleton
+University in 2020.
 
 I am primarily interested in understanding the complex and evolving
 relationship between people and our technology; how we create and shape
