@@ -25,7 +25,7 @@ Some topics I'm currently interested in:
 - Veganism and animal rights
 - Open-Source Software/Free Software Movement
 - Technology and mental health
-- Social Justice, LGBTQ+/GSRM issues
+- Social Justice, Antiracism, LGBTQ+/GSRM issues
 - Digital minimalism
 - Right to repair
 - Programming languages
