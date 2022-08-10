@@ -1,7 +1,7 @@
 baseURL = "https://jcarr.xyz/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Joshua Carr - User Experience | Software Development | Human Factors"
+title = "Jocelyn Carr - User Experience | Software Development | Human Factors"
 theme = "hermit"
 PygmentsCodefences  = true
 pygmentsUseClasses  = true
@@ -9,7 +9,7 @@ rssLimit = 10  # Maximum number of items in the RSS feed.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
 
 [author]
-  name = "Joshua Carr"
+  name = "Jocelyn Carr"
 
 [blackfriday]
   # hrefTargetBlank = true
@@ -21,7 +21,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # Categories are disabled by default.
 
 [params]
-  shortTitle      = "Joshua Carr"
+  shortTitle      = "Jocelyn Carr"
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"

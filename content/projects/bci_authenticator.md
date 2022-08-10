@@ -1,7 +1,7 @@
 ---
 title: "Brain-Computer Interface Authenticator Prototype"
 date: 2021-08-20
-author: "Joshua Carr"
+author: "Jocelyn Carr"
 draft: false
 ---
 
